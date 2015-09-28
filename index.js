@@ -5,7 +5,7 @@ var fs   = require('fs');
 
 function EmberCLIMaterialDesign(project) {
   this.project = project;
-  this.name    = 'Ember CLI Super Number';
+  this.name    = 'Ember CLI Material Design';
 }
 
 function unwatchedTree(dir) {
@@ -26,7 +26,10 @@ EmberCLIMaterialDesign.prototype.treeFor = function treeFor(name) {
 EmberCLIMaterialDesign.prototype.included = function included(app) {
   this.app = app;
 
-  this.app.import('vendor/ember-cli-super-number/styles/style.css');
+  app.import(path.join(app.bowerDirectory, 'bootstrap-material-design/dist/css/material-fullpalette.css'));
+  app.import(path.join(app.bowerDirectory, 'bootstrap-material-design/dist/css/material-fullpalette.css'));
+  app.import(path.join(app.bowerDirectory, 'bootstrap-material-design/dist/css/roboto.css'));
+  app.import(path.join(app.bowerDirectory, 'bootstrap-material-design/dist/css/ripples.css'));
 };
 
 module.exports = EmberCLIMaterialDesign;

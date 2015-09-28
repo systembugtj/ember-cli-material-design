@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-md",
+  "name": "ember-cli-material-design",
   "version": "0.0.0",
-  "description": "Small description for ember-cli-md goes here",
+  "description": "An ember cli veriosn of material design compoent",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -9,18 +9,23 @@
   },
 
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "MDRadioButton",
+    "md-radio-button"
   ],
 
-  "ember-addon-main": "lib/ember-addon-main.js",
   "scripts": {
     "start": "ember server",
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/systembug/ember-cli-md",
+  "repository": "https://github.com/systembug/ember-cli-material-design",
   "engines": {
     "node": ">= 0.10.0"
+  },
+
+  "dependencies": {
+    "ember-cli-babel": "^5.0.0"
   },
 
   "author": "albert_lee@hotmail.com",
