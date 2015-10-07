@@ -2,7 +2,7 @@
   "name": "ember-cli-material-design",
   "version": "0.0.0",
   "description": "An ember cli veriosn of material design compoent",
-  "private": true,
+  "private": false,
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -18,7 +18,7 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/systembug/ember-cli-material-design",
+  "repository": "https://github.com/systembug/ember-cli-material-design.git",
   "engines": {
     "node": ">= 0.10.0"
   },
