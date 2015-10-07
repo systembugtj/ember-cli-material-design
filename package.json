@@ -10,7 +10,6 @@
 
   "keywords": [
     "ember-addon",
-    "MDRadioButton",
     "md-radio-button"
   ],
   "scripts": {
