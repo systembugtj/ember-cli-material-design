@@ -1,4 +1,4 @@
-# ember-cli-md
+# ember-cli-material-design
 An ember cli addon for bootstrap material design.
 
 Depend on http://fezvrasta.github.io/bootstrap-material-design/
