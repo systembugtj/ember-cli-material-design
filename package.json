@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-material-design",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An ember cli veriosn of material design compoent",
   "private": false,
   "directories": {
@@ -17,7 +17,15 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/systembug/ember-cli-material-design.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/systembug/ember-cli-material-design.git"
+  },
+  "author": {
+    "name": "Albert Li",
+    "email": "albert_lee@hotmail.com",
+    "url": "https://github.com/systembugtj/ember-cli-panzoom"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -26,8 +34,6 @@
     "ember-cli-babel": "^5.0.0",
     "ember-cli-htmlbars": "0.7.9"
   },
-
-  "author": "albert_lee@hotmail.com",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
